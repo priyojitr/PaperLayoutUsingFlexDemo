@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+header{
+    padding: 1em;
+    background-color: lightgreen !important;
+}
+img{
+    height: 75px;
+    width: 75px;
+}
+ul li{
+    display: inline;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+section{
+    flex-grow: 1;
+    display: wheat;
+    overflow: auto;
+}
+.paper{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: lightgreen !important;
+}
+.paper-image{
+    border: 2px solid darkgreen;
+    height: 150px;
+    width: 150px;
+    padding: 2em;
+    margin: 1em;
+    text-align: center;
+    box-shadow: 5px 5px 10px 5px gray;
+}

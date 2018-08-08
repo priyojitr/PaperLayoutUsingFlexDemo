@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color: lightgreen;
+    text-align: center;
+}
+h1{
+    display: inline;
+}
+header img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+header nav ul li{
+    display: inline;
+}
+nav{
+    float: right;
+}
